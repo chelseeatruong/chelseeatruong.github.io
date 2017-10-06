@@ -1,0 +1,58 @@
+@font-face{
+    font-family: Chelsea;
+    src: url(fonts/magnolia.otf);
+}
+@font-face{
+    font-family: Truong;
+    src: url(fonts/LemonMilk.otf)
+}
+body{
+    background-image: url("images/lol.gif");
+    font-family: "Truong", serif;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+h1{
+    font-family: "Chelsea", serif;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff9999;
+    font-family: "Chelsea";
+    font-size: 20px;
+}
+#nav li {
+    float: left;
+}
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover {
+    background-color: #ffa3a3;
+    color: white;
+}#nav li a:active {
+    color: black;
+}
+
+#disney {
+    margin: 50px;
+}
+#lol {
+    font-size: 20px;
+}
+#songs {
+    text-align: left;
+    font-size: 15px;
+}
+
