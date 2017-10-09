@@ -16,7 +16,7 @@ body{
 h1{
     font-family: "Chelsea", serif;
     text-align: center;
-    font-size: 35px;
+    font-size: 50px;
     padding: 10px;
 }
 #nav {
@@ -46,13 +46,50 @@ h1{
 }
 
 #disney {
-    margin: 50px;
+    text-align: center;
 }
 #lol {
     font-size: 20px;
 }
 #songs {
-    text-align: left;
     font-size: 15px;
+    padding-right: 60px;
+    list-style-position: inside;
 }
-
+#table {
+    text-align: center;
+}
+#time {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    text-align: center;
+}
+#mal {
+    text-align: right;
+}
+#songhead {
+    text-align: center;
+    color: white;
+}
+/* unvisited link */
+a:link {
+    text-decoration: none;
+    color: #ff9999;
+}
+/* visited link */
+a:visited {
+    text-decoration: none;
+    color: #ff999;
+}
+/* mouse over link */
+a:hover {
+    text-decoration: underline;
+    color: #ff999;
+}
+a:active {
+    text-decoration: underline;
+}
+#ig {
+    font-size: 20px;
+}
